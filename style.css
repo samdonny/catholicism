@@ -1,0 +1,83 @@
+/* Global styles for the Catholicism vs Protestantism website */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #fefefe;
+}
+
+nav {
+  background-color: #003366;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #005999;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #003366;
+  margin-top: 1.2em;
+}
+
+h1 {
+  margin-top: 0.6em;
+}
+
+p {
+  margin-bottom: 1.2em;
+}
+
+ul {
+  margin-left: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+.footnotes {
+  font-size: 0.85em;
+}
+
+.footnotes ol {
+  padding-left: 1.2em;
+}
+
+.footnotes li {
+  margin-bottom: 0.3em;
+}
+
+a {
+  color: #003366;
+}
+
+a:hover {
+  text-decoration: underline;
+}
